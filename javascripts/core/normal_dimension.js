@@ -75,7 +75,7 @@ function getDimensionFinalMultiplier(tier) {
   }
 
   if (player.dilation.upgrades.includes(6)) multiplier = multiplier.times(player.dilation.dilatedTime.pow(308))
-  return multiplier.times(5e7);
+  return multiplier.times(1.8e308);
 }
 
 
